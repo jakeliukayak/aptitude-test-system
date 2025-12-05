@@ -1,16 +1,145 @@
-# React + Vite
+# Aptitude Test System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive aptitude test platform built with ReactJS, covering Numerical Reasoning, Inductive Reasoning, Verbal Reasoning, Deductive Reasoning, and interactive cognitive Games.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Test Types
 
-## React Compiler
+1. **📊 Numerical Reasoning**
+   - Mathematical problem solving
+   - Data interpretation
+   - Percentage calculations
+   - Ratio and proportion
+   - Speed, distance, and time problems
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **🔍 Inductive Reasoning**
+   - Pattern recognition
+   - Sequence completion
+   - Visual pattern analysis
+   - Logical progression identification
 
-## Expanding the ESLint configuration
+3. **📝 Verbal Reasoning**
+   - Reading comprehension
+   - Vocabulary (synonyms/antonyms)
+   - Analogies
+   - Passage analysis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. **🧩 Deductive Reasoning**
+   - Logical deduction from premises
+   - Syllogistic reasoning
+   - If-then logic
+   - Categorical reasoning
+
+5. **🎮 Games**
+   - **Memory Match**: Test your visual memory by matching pairs
+   - **Pattern Memory**: Simon-style sequence memorization game
+   - **Reaction Time**: Measure your reflexes and response speed
+
+## Technology Stack
+
+- **React 19.2.0** - UI framework
+- **Vite 7.2.4** - Build tool and dev server
+- **ESLint** - Code quality and linting
+- **CSS3** - Modern styling with gradients and animations
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/jakeliukayak/aptitude-test-system.git
+cd aptitude-test-system
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Development
+
+Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173/`
+
+### Build
+
+Create a production build:
+```bash
+npm run build
+```
+
+The built files will be in the `dist/` directory.
+
+### Preview Production Build
+
+Preview the production build locally:
+```bash
+npm run preview
+```
+
+### Linting
+
+Run ESLint to check code quality:
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```
+aptitude-test-system/
+├── src/
+│   ├── components/
+│   │   ├── NumericalReasoning.jsx
+│   │   ├── InductiveReasoning.jsx
+│   │   ├── VerbalReasoning.jsx
+│   │   ├── DeductiveReasoning.jsx
+│   │   └── Games.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+├── public/
+├── index.html
+├── package.json
+├── vite.config.js
+└── eslint.config.js
+```
+
+## Features
+
+- ✨ Modern, responsive UI with gradient styling
+- 📊 Progress bars for tracking test completion
+- ✅ Immediate visual feedback on answers
+- 🏆 Score calculation and results display
+- 🔄 Smooth navigation between test types
+- 🎮 Interactive games with state management
+- 📱 Mobile-friendly design
+
+## How to Use
+
+1. **Select a Test**: Choose from the five available test types on the home screen
+2. **Answer Questions**: Read each question carefully and select your answer
+3. **Submit**: Click "Submit Answer" to check your response
+4. **View Results**: Complete all questions to see your final score
+5. **Play Games**: Access cognitive games for a fun challenge
+
+## License
+
+This project is open source and available for educational purposes.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
