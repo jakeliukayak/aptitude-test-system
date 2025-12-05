@@ -1,4 +1,4 @@
-# Aptitude Test System
+# MT2.0 Aptitude Test System
 
 A comprehensive aptitude test platform built with ReactJS, covering Numerical Reasoning, Inductive Reasoning, Verbal Reasoning, Deductive Reasoning, and interactive cognitive Games.
 
