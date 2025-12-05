@@ -24,8 +24,8 @@ function App() {
       default:
         return (
           <div className="home-container">
-            <h1>Aptitude Test System</h1>
-            <p className="subtitle">Test your cognitive abilities across different domains</p>
+            <h1>MT2.0 Aptitude Test System</h1>
+            <p className="subtitle">Developed and maintained by MT2.0 CTO Lando D.</p>
             <div className="test-grid">
               <button className="test-card" onClick={() => setSelectedTest('numerical')}>
                 <h2>📊 Numerical Reasoning</h2>
